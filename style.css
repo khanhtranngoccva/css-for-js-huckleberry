@@ -66,8 +66,8 @@ header {
     background: #FFBF00;
     width: fit-content;
     margin-inline: -32px 0;
-    padding-inline: 2rem;
-    padding-block: 1rem;
+    padding-inline: 32px;
+    padding-block: 16px;
     line-height: 1.2em;
     border-bottom: 8px solid #CC9900;
     margin-block: -16px 0;
@@ -85,9 +85,8 @@ p:last-child {
 
 .card {
     background: var(--background);
-    padding-inline: 24px;
+    padding: 24px;
     margin-inline: -24px;
-    padding-block: 24px 1.5rem;
     font-weight: 500;
     border-bottom: 8px solid var(--secondary-background-border);
 }

@@ -70,7 +70,7 @@ header {
     padding-block: 1rem;
     line-height: 1.2em;
     border-bottom: 8px solid #CC9900;
-    margin-block: -1rem 0;
+    margin-block: -16px 0;
     font-size: 1.5rem;
 }
 
@@ -87,7 +87,7 @@ p:last-child {
     background: var(--background);
     padding-inline: 24px;
     margin-inline: -24px;
-    padding-block: 1.5rem;
+    padding-block: 24px 1.5rem;
     font-weight: 500;
     border-bottom: 8px solid var(--secondary-background-border);
 }

@@ -19,6 +19,10 @@ body {
     line-height: 1.2;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 body {
     font-size: 1.25rem;
 }
@@ -46,12 +50,13 @@ strong {
     max-width: 28rem;
     letter-spacing: -0.005ch;
     padding-block: 3rem;
-    padding-inline: 24px;
 }
 
 .max-width-wrapper {
     max-width: 50rem;
     margin: auto;
+    padding-inline: 24px;
+
 }
 
 .indented-heading {
@@ -79,6 +84,7 @@ main {
 .card {
     background: var(--background);
     padding-inline: 24px;
+    margin-inline: -24px;
     padding-block: 1.5rem;
     font-weight: 500;
     border-bottom: 8px solid var(--secondary-background-border);

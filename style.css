@@ -62,7 +62,7 @@ strong {
 .indented-heading {
     background: #FFBF00;
     width: fit-content;
-    margin-inline: -32px 12px;
+    margin-inline: -32px 0;
     padding-inline: 2rem;
     padding-block: 1rem;
     line-height: 1.2em;
